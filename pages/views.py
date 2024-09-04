@@ -8,7 +8,7 @@ def aboutme_view(request):
 
 
 class Homepage_view(TemplateView):
-    template_name = "pages/home.html"
+    template_name = f"{"pages/home.html"}" 
 
 class Aboutpage_view(TemplateView):
     template_name = "pages/about.html"
